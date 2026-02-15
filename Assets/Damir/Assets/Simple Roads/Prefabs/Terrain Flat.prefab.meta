@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 05dbbfc0e8f1e704b8d384c40f388a96
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212360
+  packageName: Simple Roads
+  packageVersion: 1.0.1
+  assetPath: Assets/Simple Roads/Prefabs/Terrain Flat.prefab
+  uploadId: 520970

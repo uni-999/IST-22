@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 09db4cfe380f79a4983c802ba658c3d8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212360
+  packageName: Simple Roads
+  packageVersion: 1.0.1
+  assetPath: Assets/Simple Roads/Prefabs/road (one lane) shift-turn.prefab
+  uploadId: 520970

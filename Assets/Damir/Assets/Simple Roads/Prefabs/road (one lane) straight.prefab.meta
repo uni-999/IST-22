@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9e016d3815c411b48af56217680eab8a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212360
+  packageName: Simple Roads
+  packageVersion: 1.0.1
+  assetPath: Assets/Simple Roads/Prefabs/road (one lane) straight.prefab
+  uploadId: 520970

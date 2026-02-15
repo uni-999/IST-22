@@ -1,0 +1,27 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="LapScript">
+			<method name="ChooseMenuMap"/>
+			<method name="ChooseMenuMap"/>
+			<method name="ChooseMenuMap"/>
+		</type>
+		<type fullname="QuitGame">
+			<method name="Quit"/>
+		</type>
+		<type fullname="SceneLoader">
+			<method name="ChooseDesert"/>
+			<method name="ChooseForest"/>
+			<method name="ChooseMap"/>
+			<method name="ChooseMenu"/>
+			<method name="ChooseMenu"/>
+			<method name="ChooseSkin"/>
+			<method name="ChooseSpace"/>
+			<method name="SkinFive"/>
+			<method name="SkinFour"/>
+			<method name="SkinOne"/>
+			<method name="SkinSix"/>
+			<method name="SkinThree"/>
+			<method name="SkinTwo"/>
+		</type>
+	</assembly>
+</linker>

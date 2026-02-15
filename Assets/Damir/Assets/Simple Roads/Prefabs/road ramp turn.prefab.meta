@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e5fd791facc5d6040a44420cd8db5985
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212360
+  packageName: Simple Roads
+  packageVersion: 1.0.1
+  assetPath: Assets/Simple Roads/Prefabs/road ramp turn.prefab
+  uploadId: 520970

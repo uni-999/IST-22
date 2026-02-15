@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fab187bfcff6ffb43866c7e75d3b9282
+timeCreated: 1504785578
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 99479
+  packageName: LowPoly Environment Pack
+  packageVersion: 1.0
+  assetPath: Assets/LowPoly Environment Pack/Prefabs/Rock_4.prefab
+  uploadId: 200756

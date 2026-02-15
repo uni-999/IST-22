@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2fed2110fce7a4548859f2cd1106d509
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212360
+  packageName: Simple Roads
+  packageVersion: 1.0.1
+  assetPath: Assets/Simple Roads/Prefabs/road (one lane) intesection.prefab
+  uploadId: 520970

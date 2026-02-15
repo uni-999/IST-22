@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: db5fb290d5aa095428f8343f557921a9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212360
+  packageName: Simple Roads
+  packageVersion: 1.0.1
+  assetPath: Assets/Simple Roads/Prefabs/road turn large.prefab
+  uploadId: 520970

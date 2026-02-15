@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 75d4a4640829f6241b807d10fa8a849b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212360
+  packageName: Simple Roads
+  packageVersion: 1.0.1
+  assetPath: Assets/Simple Roads/Prefabs/road corner.prefab
+  uploadId: 520970

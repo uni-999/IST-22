@@ -1,0 +1,924 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'ru' Physical Memory: 7561 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-15T22:38:11Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nba16" at "2026-02-15T22:38:11.2608422Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/nba16/Desktop/Unity Projects/Snake
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58132
+-licensingIpc
+LicenseClient-nba16
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/nba16/Desktop/Unity Projects/Snake
+C:/Users/nba16/Desktop/Unity Projects/Snake
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [17916]  Target information:
+
+Player connection [17916]  * "[IP] 192.168.1.76 [Port] 0 [Flags] 2 [Guid] 257542155 [EditorId] 257542155 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17916] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17916] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 400.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.8f1 (1c7db571dde0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nba16/Desktop/Unity Projects/Snake/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
+    Vendor:   ATI
+    VRAM:     3780 MB
+    Driver:   31.0.12044.3
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              3b34802524154e31b2bd63ef52ff81e3
+  Correlation Id:          89c51973c173f53eb470cb2a9b636c8e
+  External correlation Id: 1619914371129956888
+  Machine Id:              IfWmURufrRyj/6PUjA26MUjnGCo=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nba16" (connect: 0.02s, validation: 0.01s, handshake: 9.51s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nba16-notifications" at "2026-02-15T22:38:20.7962596Z"
+[Licensing::Module] Licensing Background thread has ended after 9.54s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006036 seconds.
+- Loaded All Assemblies, in  6.408 seconds
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.303 seconds
+Domain Reload Profiling: 7703ms
+	BeginReloadAssembly (4336ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (625ms)
+	RebuildNativeTypeToScriptingClass (137ms)
+	initialDomainReloadingComplete (370ms)
+	LoadAllAssembliesAndSetupDomain (931ms)
+		LoadAssemblies (4324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (923ms)
+			TypeCache.Refresh (919ms)
+				TypeCache.ScanAssembly (880ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1304ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1157ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (145ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (257ms)
+			ProcessInitializeOnLoadAttributes (544ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-GVB3-ZA36-QGA4-X8MT-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10170531949734-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.599 seconds
+Refreshing native plugins compatible for Editor in 25.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.186 seconds
+Domain Reload Profiling: 6751ms
+	BeginReloadAssembly (687ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (127ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (136ms)
+	LoadAllAssembliesAndSetupDomain (1578ms)
+		LoadAssemblies (1267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (716ms)
+			TypeCache.Refresh (562ms)
+				TypeCache.ScanAssembly (532ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (4187ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3755ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (531ms)
+			ProcessInitializeOnLoadAttributes (3046ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (29ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3901 unused Assets / (1.3 MB). Loaded Objects now: 4515.
+Memory consumption went from 96.6 MB to 95.3 MB.
+Total: 22.946100 ms (FindLiveObjects: 1.244300 ms CreateObjectMapping: 0.914700 ms MarkObjects: 17.068000 ms  DeleteObjects: 3.716400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2390133.475773 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(359c9172f053103479464cccc5b86597) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(359c9172f053103479464cccc5b86597) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5244e116730eb1a2baea4fc9af833422') in 0.3065718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(c5377fe915c99b7438479da1d76fe6df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(c5377fe915c99b7438479da1d76fe6df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a501f46d2ca995920e7d7d2523599465') in 0.0666108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Bush_2.fbx
+  artifactKey: Guid(dc749e1d7217543459b25648f0721592) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Bush_2.fbx using Guid(dc749e1d7217543459b25648f0721592) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7cffa144a71a2f2e1b0d6e366c3064b5') in 0.2021676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Brown.15.mat
+  artifactKey: Guid(bce264d72e6c68949b26915aab911ee7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Brown.15.mat using Guid(bce264d72e6c68949b26915aab911ee7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '96534827d5338d60d322bd330d72b8b7') in 0.0656268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(9237d78d9f9b1c74290e869ac85b8f63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(9237d78d9f9b1c74290e869ac85b8f63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3ca36f7cf4a5bfefb519b318d11b665') in 0.0564192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Mounting_3.fbx
+  artifactKey: Guid(944cf3ae1701ff4478daacd7710fcceb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Mounting_3.fbx using Guid(944cf3ae1701ff4478daacd7710fcceb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63481b7b94d394ec0b2546c2ef397eb8') in 0.0773562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Demo/Scene 3
+  artifactKey: Guid(d0d5cea59b8b0a243b361ac57143e58f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Demo/Scene 3 using Guid(d0d5cea59b8b0a243b361ac57143e58f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b83ba452060b6f1b4a3f2f60acc73a1') in 0.0334659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
+  artifactKey: Guid(01e428a4b543eea46b4fa201282910bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl using Guid(01e428a4b543eea46b4fa201282910bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a21ff9d711647c87190d50efc2928ff0') in 0.0578621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Orange.3.mat
+  artifactKey: Guid(40a169ccda2e88444953eee91f8029ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Orange.3.mat using Guid(40a169ccda2e88444953eee91f8029ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5daa34672d7417a1f0a38a84f47b04d0') in 0.0372045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Scenes/Desert.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Desert.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '880ba1203f2a1d3262c86b34ded0a503') in 0.0789909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Damir/Second Assets/My project/ProjectSettings/MultiplayerManager.asset
+  artifactKey: Guid(7cee4aed9ed119a48a7aa853acf1af8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/ProjectSettings/MultiplayerManager.asset using Guid(7cee4aed9ed119a48a7aa853acf1af8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4c0311c647378d702855571cb1fecb6') in 0.0505173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Plant_7.fbx
+  artifactKey: Guid(b587e57c888c31242aa8d51916686e97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Plant_7.fbx using Guid(b587e57c888c31242aa8d51916686e97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0e1ebd88266f8257ca7251710c33cba') in 0.1080998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Damir/Second Assets/My project/UserSettings/EditorUserSettings.asset
+  artifactKey: Guid(b3e313dbee994bd488db850fafce1e20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/UserSettings/EditorUserSettings.asset using Guid(b3e313dbee994bd488db850fafce1e20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '017dd4e6a9820844974321ca5c655701') in 0.0484315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/UI/Skybox/SkinChoose.mat
+  artifactKey: Guid(e9d48ea389bb6c4488b49abbd8f56c22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/UI/Skybox/SkinChoose.mat using Guid(e9d48ea389bb6c4488b49abbd8f56c22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7459c68d4475cf9061c1696dc0c1251e') in 0.0907073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Plant_6.fbx
+  artifactKey: Guid(6b239461a8370e64fa112f26d7da05df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Plant_6.fbx using Guid(6b239461a8370e64fa112f26d7da05df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d890f11307c16e7e6a6d272bf5fc819') in 0.052362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Green.10.mat
+  artifactKey: Guid(8f7fc70658710b648aeb3761a398ffae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Green.10.mat using Guid(8f7fc70658710b648aeb3761a398ffae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09af5ee998d6f80768f3d145220e3ba5') in 0.0305338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Green.12.mat
+  artifactKey: Guid(3f33ab6f80f8bc54b988dc4ab8817ee7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Green.12.mat using Guid(3f33ab6f80f8bc54b988dc4ab8817ee7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '658a44b45cd584f0b26a1899b564b822') in 0.0419713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Log_2.prefab
+  artifactKey: Guid(b3817e5854e17f94e961e69a248bfdef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Log_2.prefab using Guid(b3817e5854e17f94e961e69a248bfdef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3d921352b14e85e956072aa19e2eea8') in 0.1532935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Tree_3.prefab
+  artifactKey: Guid(22dc84af5010f5a42a4f57b1965d38a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Tree_3.prefab using Guid(22dc84af5010f5a42a4f57b1965d38a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24f59f135227963e53dbc1287730bd22') in 0.1543329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(879a41d3c6c29eb45a2352d038ebb425) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders using Guid(879a41d3c6c29eb45a2352d038ebb425) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad3913c13609524e92d3b5c1a038f5aa') in 0.1024677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Damir/Second Assets/My project/ProjectSettings/ProjectVersion.txt
+  artifactKey: Guid(a9a1197c5c2fc054794fb21a5a427e92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/ProjectSettings/ProjectVersion.txt using Guid(a9a1197c5c2fc054794fb21a5a427e92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a624be653756a53f7f8f71943b152007') in 0.0870897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Damir/Second Assets/My project/Logs/shadercompiler-UnityShaderCompiler.exe-0.log
+  artifactKey: Guid(003aed609da56f04ca41256e18c7b91a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Logs/shadercompiler-UnityShaderCompiler.exe-0.log using Guid(003aed609da56f04ca41256e18c7b91a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03a2064c6bdad2b52fa6d6fca0336405') in 0.049471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Mounting_2.fbx
+  artifactKey: Guid(c0a129c036cde4546b2dba7892041081) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Mounting_2.fbx using Guid(c0a129c036cde4546b2dba7892041081) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a644e581ad1cfa77cf6394fa224b4283') in 0.0606987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Damir/Second Assets/My project/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+  artifactKey: Guid(edfc663227a6a6043aa914ef00a6f464) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/UserSettings/Layouts/CurrentMaximizeLayout.dwlt using Guid(edfc663227a6a6043aa914ef00a6f464) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de3bc74ebbb1b1b2dd544614c3ed74f2') in 0.0613195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001156 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX
+  artifactKey: Guid(5fb228ef6fa9cfe488232f0ed5adbd2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX using Guid(5fb228ef6fa9cfe488232f0ed5adbd2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7abd292e4a34159e2f2520be7925af1c') in 0.0440594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Damir/Second Assets/My project/ProjectSettings/PresetManager.asset
+  artifactKey: Guid(2685b68f36d8f7c488c6718450f2d810) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/ProjectSettings/PresetManager.asset using Guid(2685b68f36d8f7c488c6718450f2d810) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c95d0dc51922af8da78e943286ca179a') in 0.04353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Damir/Second Assets/My project/ProjectSettings/NavMeshAreas.asset
+  artifactKey: Guid(718b9a08cde6c304392af5724508cbe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/ProjectSettings/NavMeshAreas.asset using Guid(718b9a08cde6c304392af5724508cbe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f993036fc5fa4e0676178df3364862e8') in 0.0371744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Damir/Second Assets/My project/ProjectSettings/ProjectSettings.asset
+  artifactKey: Guid(3cc365066d1a9f4458663e0bd2017de2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/ProjectSettings/ProjectSettings.asset using Guid(3cc365066d1a9f4458663e0bd2017de2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7836e136fc7a57cca85da82d2a06211') in 0.0379328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Tree_3.fbx
+  artifactKey: Guid(5d3d4138434b3604e875e0871c963e9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Tree_3.fbx using Guid(5d3d4138434b3604e875e0871c963e9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '436830f8accaa64d3566e10ec69668d2') in 0.0600514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(023a13576eeffbe48aa9c53a207bfb77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(023a13576eeffbe48aa9c53a207bfb77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '106479fb2894733bcd1b85db97b112ac') in 0.0866812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scripts/BounsScript.cs
+  artifactKey: Guid(bbf225f3b04cdec4086a5e5052058e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BounsScript.cs using Guid(bbf225f3b04cdec4086a5e5052058e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cea8224cff2487726e9dc5f62893e59') in 0.0024379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+  artifactKey: Guid(dd185ebf9d5789644852406a9134bacb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(dd185ebf9d5789644852406a9134bacb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aae567f919f9ca2b0e8911bc27849b61') in 0.0334742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(9b20600fc10e8494392204ad1e018c93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(9b20600fc10e8494392204ad1e018c93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b65434cd0e7a5d8809d4f34d49cbeba') in 0.0742537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Green.4.mat
+  artifactKey: Guid(f127d02ee8e47174baa94ac108e923f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Green.4.mat using Guid(f127d02ee8e47174baa94ac108e923f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be07b138e1166945ca1cde87c6624d13') in 0.0360881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Damir/Second Assets/My project/Logs/AssetImportWorker1.log
+  artifactKey: Guid(2ae195ee42a25494aaf55463c44d6e52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Logs/AssetImportWorker1.log using Guid(2ae195ee42a25494aaf55463c44d6e52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ac7515a6c2a369a8e081d75711092f9') in 0.0249024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Demo/Scene 2/CameraTimeline Scene 2.playable
+  artifactKey: Guid(3c344043c1a85eb4594e65cce090f4fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Demo/Scene 2/CameraTimeline Scene 2.playable using Guid(3c344043c1a85eb4594e65cce090f4fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff007a89968e94f52a52f5b9180cc1ca') in 0.1235364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Purple.1.mat
+  artifactKey: Guid(08a9fac1862096647be5f625e90c5e41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Purple.1.mat using Guid(08a9fac1862096647be5f625e90c5e41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53ac9693ae1151983ca0609a00d433e1') in 0.0366004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/UI/Models/Treadmill.fbx
+  artifactKey: Guid(207193c46dd29b2448a60143e992e7e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/UI/Models/Treadmill.fbx using Guid(207193c46dd29b2448a60143e992e7e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aafd330b0807e28cd1ddcfeaf9044aeb') in 0.0707362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scripts/MovmentScript.cs
+  artifactKey: Guid(b5ecf752241e33541a7db0992e4e2483) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/MovmentScript.cs using Guid(b5ecf752241e33541a7db0992e4e2483) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf2bef19c03fcc086919c57bc25418fa') in 0.0344653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(9799555b801ec244bbe13a10607d7686) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(9799555b801ec244bbe13a10607d7686) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea7323d1f0eace94d53d767ee91235d6') in 0.0315798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Plant_4.fbx
+  artifactKey: Guid(0fc53b592a825d24e87cfad96b6dc3a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Plant_4.fbx using Guid(0fc53b592a825d24e87cfad96b6dc3a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f2b93640f420c13a9febebfc16b85f7') in 0.0508567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Damir/Second Assets/My project/ProjectSettings/InputManager.asset
+  artifactKey: Guid(198252dc4f5ae7643b089809fea5aa13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/ProjectSettings/InputManager.asset using Guid(198252dc4f5ae7643b089809fea5aa13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '938860a83a2db619aceb0ee24982b34f') in 0.0570967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.815348 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/UI
+  artifactKey: Guid(c26ef8c6f4296304c838f1318ad15678) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/UI using Guid(c26ef8c6f4296304c838f1318ad15678) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04ce770725976264e28d759182dad9e2') in 0.0498384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Terrain_2.fbx
+  artifactKey: Guid(55a540c67257c1343b7f667d4cbc76dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Terrain_2.fbx using Guid(55a540c67257c1343b7f667d4cbc76dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3655d8257780cad53a6c263b65825987') in 0.0725074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Damir/Second Assets/My project/ProjectSettings
+  artifactKey: Guid(3393a656c486b654cb21da8f962f8b18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/ProjectSettings using Guid(3393a656c486b654cb21da8f962f8b18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f02b260b6da6d95f6574772b31d85e37') in 0.0401959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs
+  artifactKey: Guid(fe60dcf4e1a42464e83060bcae267e35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs using Guid(fe60dcf4e1a42464e83060bcae267e35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e887e8d794aa78f40d0253838052f357') in 0.0416251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/UI/Models/Materials/Tredmill_material.mat
+  artifactKey: Guid(696e9afca6f7b024fa8d6f51fb015dc4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/UI/Models/Materials/Tredmill_material.mat using Guid(696e9afca6f7b024fa8d6f51fb015dc4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7cdd2ec3ce83aadd786a8ebbc3ae68c3') in 0.0499939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Grass_2.fbx
+  artifactKey: Guid(ae6587cb12e7b634b8d1a63b2651674e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Grass_2.fbx using Guid(ae6587cb12e7b634b8d1a63b2651674e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '96a3263646da24c3adca168c637a4e27') in 0.0728281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/846724.png.jpg
+  artifactKey: Guid(2097c660899c7c24cb0475cf840593e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/846724.png.jpg using Guid(2097c660899c7c24cb0475cf840593e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf1175896409ead3931107e2fb85081c') in 0.1909162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Anim/ZmeyaStandUp.controller
+  artifactKey: Guid(78e842e77adaa9c44922e6ecf4c606c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim/ZmeyaStandUp.controller using Guid(78e842e77adaa9c44922e6ecf4c606c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '30efa71c4228d1feeb25973ca46d2360') in 0.0626549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(4599807251c059e4bb53833e6a49542c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(4599807251c059e4bb53833e6a49542c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc18a2f3d0dd56a9912e4488a765a621') in 0.0801704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Materials/mapDesert.png
+  artifactKey: Guid(36bf308abf3528445840268c950ec268) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/mapDesert.png using Guid(36bf308abf3528445840268c950ec268) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac65907d31e2d1c96f62056ec35b2ce7') in 0.1324661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(1a8561ffbffb45542aeb14b9a60e6f88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(1a8561ffbffb45542aeb14b9a60e6f88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1430d942d0f428562a4849fd7cf85874') in 0.0589412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/Scenes/Skin_choose.unity
+  artifactKey: Guid(df5e91e3714981e4788246d413ae84f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/Scenes/Skin_choose.unity using Guid(df5e91e3714981e4788246d413ae84f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c799daa9571e9c4c2b336629b4d92f86') in 0.0667632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Demo
+  artifactKey: Guid(736f8d3932b9212458679c077234f21d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Demo using Guid(736f8d3932b9212458679c077234f21d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1bbf27f35065246f8cd2681aaf16a5e') in 0.0462041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Brown.7.mat
+  artifactKey: Guid(9a8d66abb6ae24a49910b43d94f57372) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Brown.7.mat using Guid(9a8d66abb6ae24a49910b43d94f57372) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf78198b56c9d1581f45f30986384a8a') in 0.0895901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005326 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Plant_5.prefab
+  artifactKey: Guid(83ecbd73653fcac4ebe60d983e534d89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Plant_5.prefab using Guid(83ecbd73653fcac4ebe60d983e534d89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22e4587ebac9db95d8a02c7f4626f3fe') in 0.3018061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/New Material 1.mat
+  artifactKey: Guid(7b4b6f2996a9aa845a4a9cb2f7623110) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/New Material 1.mat using Guid(7b4b6f2996a9aa845a4a9cb2f7623110) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b24ee38a01ef806c959decb48af0295') in 0.1902502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Rock_2.prefab
+  artifactKey: Guid(31b9a87c695f8544b953a5408312ba1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Rock_2.prefab using Guid(31b9a87c695f8544b953a5408312ba1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '339f5bcadfda8c9d6d7006ac50ac6ebb') in 0.1803221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/UI/Models/Textures/Skin006.jpg
+  artifactKey: Guid(8dbd6923b3ceba3438b9132dcb202882) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/UI/Models/Textures/Skin006.jpg using Guid(8dbd6923b3ceba3438b9132dcb202882) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '564e399122e8441fff398e8785ee277c') in 0.2572632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Purple.2.mat
+  artifactKey: Guid(9bd9cb88cdf56db488d79af399e77c4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Purple.2.mat using Guid(9bd9cb88cdf56db488d79af399e77c4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5d669f9763bea67f442c3706ad5dcf3') in 0.1949943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(a8c79459187c53c4999e5d1257757308) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(a8c79459187c53c4999e5d1257757308) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3089f53fe342320dd3feaf298dca09d') in 0.0947139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Damir/Second Assets/My project/UserSettings
+  artifactKey: Guid(480a46b8a2321dc4191c0b42ff0bdf4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/UserSettings using Guid(480a46b8a2321dc4191c0b42ff0bdf4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58d88c46b683607f12a878d3273f1da4') in 0.3096206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Plant_4.prefab
+  artifactKey: Guid(b99c990677c0ee84baf0f070608c8800) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Plant_4.prefab using Guid(b99c990677c0ee84baf0f070608c8800) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3bd427a6374e8cf03a5d59860d4cf943') in 0.080213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Damir/Second Assets/My project/ProjectSettings/PackageManagerSettings.asset
+  artifactKey: Guid(578731aee9379b143838d62c9801b86e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/ProjectSettings/PackageManagerSettings.asset using Guid(578731aee9379b143838d62c9801b86e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'edad62a3e4d9cd2cfc1fa4946f179d13') in 0.1137057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005992 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/Scenes/Map_choose.unity
+  artifactKey: Guid(dfd60d35451f43c489007feeb231a8b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/Scenes/Map_choose.unity using Guid(dfd60d35451f43c489007feeb231a8b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '774e9a29724666fb376b0a205c378a8e') in 0.36567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Damir/Second Assets/My project/ProjectSettings/Packages
+  artifactKey: Guid(5da68e9b92066ee4daa294ce337790dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/ProjectSettings/Packages using Guid(5da68e9b92066ee4daa294ce337790dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29a90f20bcd43ecad307d0b1efa536b8') in 0.1027103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000615 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Tree_1.fbx
+  artifactKey: Guid(23dd77566cc13d542b5d651e9549e884) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Tree_1.fbx using Guid(23dd77566cc13d542b5d651e9549e884) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '202caf4e0eaf4ebfa9ea43b93e91407f') in 0.3561588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004359 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(8af6638641ccd0e47b0b81fdb3f212d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(8af6638641ccd0e47b0b81fdb3f212d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d7cebc255109b95e5bae9973cc4cb14') in 0.1946575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000744 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Log_3.fbx
+  artifactKey: Guid(7f5ad93ac869cc34d9e9a4c7c085d84e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Log_3.fbx using Guid(7f5ad93ac869cc34d9e9a4c7c085d84e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0fa04bb05863a1a1c2f70646a42f326') in 0.7247156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024725 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(410adc135fbc3f34cad2e230e2c66867) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Sprites using Guid(410adc135fbc3f34cad2e230e2c66867) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'addefd58e7c78cf1053fcf2f1c1417a4') in 0.1281947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002522 seconds.
+  path: Assets/Damir/Second Assets/My project/ProjectSettings/XRSettings.asset
+  artifactKey: Guid(ff4064c37e098874aaddeae9f0164056) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/ProjectSettings/XRSettings.asset using Guid(ff4064c37e098874aaddeae9f0164056) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)Failed to load 'C:/Users/nba16/Desktop/Unity Projects/Snake/Assets/Damir/Second Assets/My project/ProjectSettings/XRSettings.asset'. File may be corrupted or was serialized with a newer version of Unity.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[ line 0]
+
+Failed to load 'Assets/Damir/Second Assets/My project/ProjectSettings/XRSettings.asset'. File may be corrupted or was serialized with a newer version of Unity.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:GetDependencies (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDependencies (int&,string&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[ line 0]
+
+ -> (artifact id: 'c8be1c375a69f004c9738e362022d4e3') in 0.2347949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Damir/Second Assets/My project/My project.slnx
+  artifactKey: Guid(6239a644127da2748a99614433c2e155) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/My project.slnx using Guid(6239a644127da2748a99614433c2e155) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe9f988ab7dd00d56a7e4cba41c1c1eb') in 0.0558763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/UI/Models/Materials/SnakeSkin.mat
+  artifactKey: Guid(4c1869708f65b2448bb52a26dcced612) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/UI/Models/Materials/SnakeSkin.mat using Guid(4c1869708f65b2448bb52a26dcced612) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f281c1b2518f3861539dfcbea6346ef6') in 0.0989264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Yellow.3.mat
+  artifactKey: Guid(455cda6c27ba24c4aa45532e8bc4116e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Yellow.3.mat using Guid(455cda6c27ba24c4aa45532e8bc4116e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ed034397fd280dcba91a2f1e3033631') in 0.069168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Rock_3.prefab
+  artifactKey: Guid(c3cb3eeda76ced64a98f3542f8dcbaba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Rock_3.prefab using Guid(c3cb3eeda76ced64a98f3542f8dcbaba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4d7c2762b3ff2e94e6b10fff8c84478') in 0.0802353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Plant_6.prefab
+  artifactKey: Guid(8a2db30ae593c4b4080eddc3110e1f7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Plant_6.prefab using Guid(8a2db30ae593c4b4080eddc3110e1f7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc57885f8a1b7d16c0fdf937c997ce14') in 0.2581308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Log_1.fbx
+  artifactKey: Guid(6e0c575398eaf1243b874e4442f98f13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Log_1.fbx using Guid(6e0c575398eaf1243b874e4442f98f13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd32abc9dbfa61ee4ac9e406424474349') in 0.0978693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(9566e40762a72e448b7cc810b2da1c73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/InputSystem_Actions.inputactions using Guid(9566e40762a72e448b7cc810b2da1c73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56d8b5913eb0ff5ad246456db2ebe73e') in 2.909056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(cbb6ce5cc0b28c04ab0622194601d660) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(cbb6ce5cc0b28c04ab0622194601d660) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8328758a2d8ccae5a54c50c0647c20e6') in 0.0800126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Green.1.mat
+  artifactKey: Guid(997fb24ae3c93314194bd2f8ed32a602) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Green.1.mat using Guid(997fb24ae3c93314194bd2f8ed32a602) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d1fa7a5c4966ec1fb709b3a908c5174') in 0.0597498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Brown.4.mat
+  artifactKey: Guid(ec9c11d6bc5e3a444baf1f3d86f03ff7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/FBX/Materials/Brown.4.mat using Guid(ec9c11d6bc5e3a444baf1f3d86f03ff7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3554a62ff3b2d647a6915478b077928') in 0.0947729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002445 seconds.
+  path: Assets/Damir/Second Assets/My project/ProjectSettings/AudioManager.asset
+  artifactKey: Guid(7a9beae4211388943875e449bb573f35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/ProjectSettings/AudioManager.asset using Guid(7a9beae4211388943875e449bb573f35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58c1734908034160ad37d30699551d10') in 0.1274561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004976 seconds.
+  path: Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Mounting_3.prefab
+  artifactKey: Guid(a0516de9b2e2b5342b59f5f5add9efe6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Damir/Second Assets/My project/Assets/LowPoly Environment Pack/Prefabs/Mounting_3.prefab using Guid(a0516de9b2e2b5342b59f5f5add9efe6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68b87e4a56c94af2d049814c0f6cc271') in 0.7337078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Anim/Snake_Idle.anim
+  artifactKey: Guid(4bfd71a686b819241b41bdf5c8ce0411) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim/Snake_Idle.anim using Guid(4bfd71a686b819241b41bdf5c8ce0411) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2219089ab5b9531dfebdf199a4e4166') in 0.1656356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
